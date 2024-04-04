@@ -1,22 +1,38 @@
 import "./Home.css";
 
-import logoTitle from "../../assets/images/logo-s.png";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <div className="container home-page">
       <div className="text-zone">
-        <h1>
-          Hi, <br /> I'm
-          <img src={logoTitle} alt="developer" />
-          athan
-          <br />a full stack developer
-        </h1>
-        <h2>Full Stack Developer / UNSW Student</h2>
-        <Link to="/contact" className="flat-button">
-          CONTACT ME
-        </Link>
+        <h1>NATHAN SMITH</h1>
+        <h2>Full Stack Developer / AI Software Engineer / UNSW Student</h2>
+
+        <div className="navbar">
+          <ul>
+            <li>
+              <Link to="/" className="nav-button">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="nav-button">
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className="nav-button">
+                Contacts
+              </Link>
+            </li>
+            <li className="resume-button">
+              <Link to="/" className="nav-button">
+                Resume
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
