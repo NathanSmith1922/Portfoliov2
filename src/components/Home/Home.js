@@ -9,8 +9,13 @@ export const Home = () => {
         <h1>NATHAN SMITH</h1>
         <h2>Full Stack Developer / AI Software Engineer / UNSW Student</h2>
 
-        <div className="navbar">
+        <div class="navbar">
           <ul>
+            <li>
+              <Link to="/" className="nav-button home-button">
+                N
+              </Link>
+            </li>
             <li>
               <Link to="/" className="nav-button">
                 About
@@ -33,6 +38,40 @@ export const Home = () => {
             </li>
           </ul>
         </div>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
+        <h2>Hey</h2>
       </div>
     </div>
   );
